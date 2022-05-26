@@ -1,0 +1,70 @@
+* {
+    
+    margin: 0;
+    
+}
+body{
+    background-color: whitesmoke;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: blue;
+}
+.flexdivs{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.part1{
+    margin: 2px;
+    padding: 5px;
+    width: 35%;
+}
+label, input, button{
+    margin: 3px;
+    
+}
+
+.part2{
+    width: 65%;
+}
+div {
+    padding: auto;
+    border: 0.01px solid rgb(28, 28, 29) ;
+}
+.navbar{
+    /* background-color: blueviolet; */
+    border: 0px;
+    padding: 0px;
+    color: rgb(136, 59, 59);
+    
+
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    padding: 5px;
+}
+li{
+    padding: 6px;
+}
+video{
+    width: 100%;
+    border-bottom: 10px;
+
+}
+img{
+    width: 100%;
+}
+hr {
+    height: 1px;
+    width: 100%;
+    background-color: black;
+}
+h4, h2{
+    border-bottom: 10px;
+    padding-bottom: 10px;
+}
